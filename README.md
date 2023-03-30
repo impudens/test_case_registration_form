@@ -1,5 +1,6 @@
 # Test Case - Registration Form
-Репозиторий с результатом выполнения тестового задания - https://cloud.mail.ru/public/sHow/KzsmmLjeB
+Репозиторий с результатом выполнения тестового задания 
+Ссылка на ТЗ - https://cloud.mail.ru/public/sHow/KzsmmLjeB
 
 [![Ссылка на сайт](https://img.shields.io/badge/-WEBSITE-%23222222?logo=GitHub%20Pages)](https://impudens.github.io/test_case_registration_form/)
 
