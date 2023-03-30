@@ -1,0 +1,41 @@
+.form-block {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.invalid {
+    border-color: red;
+    background-color: red;
+}
+
+.valid {
+    border-color: green;
+    background-color: green;
+
+}
+
+.required {
+    background-color: orange;
+}
+
+.button:hover {
+    background-color: rgb(157, 223, 225);
+
+}
+
+input:active {
+    background-color: rgb(157, 223, 225);
+}

@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS Vite Template</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/js/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>JS Vite Template</title>
+</head>
+
+<body>
+
+  <form method="post" name="registration-form" onsubmit="return formValidation()">
+    <div class="name-block form-block">
+      <label for="first-name">Введите имя</label>
+      <input type="text" name="name" id="first-name" required placeholder="Имя">
+    </div>
+    <div class="surname-block form-block">
+      <label for="last-name">Введите фамилию</label>
+      <input type="text" name="surname" id="last-name" required placeholder="Фамилия">
+    </div>
+    <div class="email-block form-block">
+      <label for="email">Введите e-mail</label>
+      <input type="email" name="email" id="email" required placeholder="example@mail.com">
+    </div>
+    <div class="password-block form-block">
+      <label for="password">Введите пароль</label>
+      <input type="password" name="password-first" required id="password" placeholder="password">
+    </div>
+    <div class="password-block form-block">
+      <label for="password-confirm">Повторите пароль</label>
+      <input type="password" name="password-second" required id="password-confirm" placeholder="password">
+    </div>
+    <div class="birthday-date-block form-block">
+      <label for="birth-day">Дата рождения</label>
+      <input type="date" name="birthday-date" required id="birth-day">
+    </div>
+    <div class="form-buttons">
+      <button class="button" id="form-button" disabled type="submit">Отправить</button>
+      <button class="clear-button button" type="reset">Очистить</button>
+    </div>
+  </form>
+  <script src="src/js/main.js"></script>
+</body>
+
 </html>
