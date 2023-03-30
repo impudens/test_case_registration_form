@@ -1,11 +1,13 @@
-# Test Case - form validation
-Репозиторий с результатом выполнения тестового задания.
+# Test Case - Registration Form
+Репозиторий с результатом выполнения тестового задания 
+
+Ссылка на ТЗ - https://cloud.mail.ru/public/sHow/KzsmmLjeB
 
 [![Ссылка на сайт](https://img.shields.io/badge/-WEBSITE-%23222222?logo=GitHub%20Pages)](https://impudens.github.io/test_case_registration_form/)
 
 ***
 
-<img src="https://i.ibb.co/ZMNv3YC/Screenshot-from-2023-03-30-17-41-02.png" alt="Screenshot-from-2023-03-20-04-42-54" border="0">
+<img src="https://i.ibb.co/1qGsmYJ/Screenshot-from-2023-03-31-05-17-11.png" alt="Screenshot-from-2023-03-20-04-42-54" border="0">
 
 ***
 
