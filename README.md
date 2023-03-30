@@ -1,11 +1,11 @@
-# Demo repository
-Демонстрационный проект для тестов.
+# Test Case - form validation
+Репозиторий с результатом выполнения тестового задания.
 
-[![Ссылка на сайт](https://img.shields.io/badge/-WEBSITE-%23222222?logo=GitHub%20Pages)](https://impudens.github.io/js-vite-template/)
+[![Ссылка на сайт](https://img.shields.io/badge/-WEBSITE-%23222222?logo=GitHub%20Pages)](https://impudens.github.io/test_case_registration_form/)
 
 ***
 
-<img src="https://i.ibb.co/qD34Hn4/Screenshot-from-2023-03-20-04-42-54.png" alt="Screenshot-from-2023-03-20-04-42-54" border="0">
+<img src="https://i.ibb.co/ZMNv3YC/Screenshot-from-2023-03-30-17-41-02.png" alt="Screenshot-from-2023-03-20-04-42-54" border="0">
 
 ***
 
@@ -16,18 +16,22 @@
 - [Источники](#Источники)
 
 ## Технологии
-![HTML5 badge](https://img.shields.io/badge/-HTML-%23003?logo=html5)
+
+![HTML5 badge](https://img.shields.io/badge/-HTML5-%23003?logo=html5)
+![CSS3 badge](https://img.shields.io/badge/-CSS3-%23003?logo=CSS3&logoColor=%231572B6)
+![JavaSctipt badge](https://img.shields.io/badge/-JavaScript-%23003?color=%23003&logo=JavaScript&logoColot=%23F7DF1E)
+![Vite badge](https://img.shields.io/badge/-Vite-%23003?color=%23FFC119&logo=vite)
 
 ### Мотивация
-Задача проекта - разобраться как настраивать и оформлять проект. 
+Тестовое задание для приглашения на собеседование
 
 ## To do
-- [x] Создать, оформить и настроить проект
-- [x] Выложить проект на GitPages
+- [x] Верстка
+- [x] JS логика
 - [x] Оформить файл README.md
+- [ ] Исправить косяки
+- [ ] Сдать
 
 ## Команда проекта
 [![Ivan Trofimov](https://img.shields.io/badge/-Ivan%20Trofimov-black?logo=GitHub)](https://github.com/impudens)
 
-## Источники
-[![Шаблон](https://img.shields.io/badge/-%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%20README.md-informational?logo=GitHub)](https://gist.github.com/bzvyagintsev/0c4adf4403d4261808d75f9576c814c2)
