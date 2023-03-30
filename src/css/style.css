@@ -11,6 +11,12 @@
     gap: 10px;
 }
 
+.error-message {
+    font-size: 10px;
+    font-style: italic;
+    color: red;
+}
+
 .button {
     width: 100px;
     border-radius: 20px;

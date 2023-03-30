@@ -10,34 +10,40 @@
 
 <body>
 
-  <form method="post" name="registration-form" onsubmit="return formValidation()">
+  <form method="post" id="registration-form" name="registration-form" onsubmit="return formValidation()">
     <div class="name-block form-block">
       <label for="first-name">Введите имя</label>
       <input type="text" name="name" id="first-name" required placeholder="Имя">
+      <div id="name-error" class="error-message" hidden></div>
     </div>
     <div class="surname-block form-block">
       <label for="last-name">Введите фамилию</label>
       <input type="text" name="surname" id="last-name" required placeholder="Фамилия">
+      <div id="last-name-error" class="error-message" hidden></div>
     </div>
     <div class="email-block form-block">
       <label for="email">Введите e-mail</label>
       <input type="email" name="email" id="email" required placeholder="example@mail.com">
+      <div id="email-error" class="error-message" hidden></div>
     </div>
     <div class="password-block form-block">
       <label for="password">Введите пароль</label>
       <input type="password" name="password-first" required id="password" placeholder="password">
+      <div id="password-error" class="error-message" hidden></div>
     </div>
     <div class="password-block form-block">
       <label for="password-confirm">Повторите пароль</label>
       <input type="password" name="password-second" required id="password-confirm" placeholder="password">
+      <div id="password-confirm-error" class="error-message" hidden></div>
     </div>
     <div class="birthday-date-block form-block">
       <label for="birth-day">Дата рождения</label>
       <input type="date" name="birthday-date" required id="birth-day">
+      <div id="birth-day-error" class="error-message" hidden></div>
     </div>
     <div class="form-buttons">
       <button class="button" id="form-button" disabled type="submit">Отправить</button>
-      <button class="clear-button button" type="reset">Очистить</button>
+      <button class="button" type="reset" id="clear-button">Очистить</button>
     </div>
   </form>
   <script src="src/js/main.js"></script>
