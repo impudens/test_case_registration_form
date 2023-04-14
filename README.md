@@ -31,8 +31,8 @@
 - [x] Верстка
 - [x] JS логика
 - [x] Оформить файл README.md
-- [ ] Исправить косяки
-- [ ] Сдать
+- [x] Исправить косяки
+- [x] Сдать
 
 ## Команда проекта
 [![Ivan Trofimov](https://img.shields.io/badge/-Ivan%20Trofimov-black?logo=GitHub)](https://github.com/impudens)
